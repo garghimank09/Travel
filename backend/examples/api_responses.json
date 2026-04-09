@@ -1,0 +1,45 @@
+{
+  "GET /places": [
+    {
+      "id": 1,
+      "name": "Manali",
+      "location": "Himachal Pradesh, India",
+      "description": "Alpine town known for Rohtang Pass, Solang Valley, and riverside cafés — ideal for adventure and mountain views.",
+      "images": [
+        "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800"
+      ],
+      "avg_budget": 35000
+    }
+  ],
+  "GET /places/1": {
+    "id": 1,
+    "name": "Manali",
+    "location": "Himachal Pradesh, India",
+    "description": "Alpine town known for Rohtang Pass, Solang Valley, and riverside cafés — ideal for adventure and mountain views.",
+    "images": [
+      "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800"
+    ],
+    "avg_budget": 35000
+  },
+  "POST /generate-trip": {
+    "destination": "Goa",
+    "summary": "A relaxed coastal escape balancing beaches, heritage, and local food within your budget.",
+    "days": [
+      {
+        "day": 1,
+        "activities": [
+          {
+            "time": "09:00",
+            "title": "Heritage walk in Fontainhas",
+            "description": "Stroll pastel lanes and stop for a traditional breakfast."
+          },
+          {
+            "time": "15:00",
+            "title": "Beach time at Calangute",
+            "description": "Swim, sunbathe, and try fresh coconut water from vendors."
+          }
+        ]
+      }
+    ]
+  }
+}

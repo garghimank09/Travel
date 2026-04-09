@@ -1,0 +1,10 @@
+# Flexible versions so pip can pick wheels for your Python (e.g. 3.14 on Windows).
+fastapi>=0.115.0,<0.116.0
+uvicorn[standard]>=0.32.0,<0.33.0
+sqlalchemy>=2.0.36,<2.1.0
+psycopg2-binary>=2.9.10
+pydantic>=2.11.0
+pydantic-settings>=2.6.0
+python-dotenv>=1.0.0
+httpx>=0.28.0
+openai>=1.57.0
